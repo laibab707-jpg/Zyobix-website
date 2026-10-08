@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: background: #091E3A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2D9EE0, #2F80ED, #091E3A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2D9EE0, #2F80ED, #091E3A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+    color: radialGradient;
+    
+}
+
+.navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #0c0b0b;
+    font-size: x-large;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    
+}
+
+.nav-links a {
+    color: #e2e2e2;
+    text-decoration: none;
+    font-size: large;
+}
+
+.hero {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size:3.5rem;
+    margin-bottom: 25px;
+    padding: 20px;
+    
+    
+}
+
+.about h1 {
+    text-align: center;
+
+
+}
+.about p{
+text-align: center;
+padding: 30px;
+font-size: large;
+
+
+}
+
+/* CSS */
+.text-center {
+    font-family: sans-serif;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 600;
+  text-decoration-color: cadetblue;
+font-display: auto;
+}
+
+
+
+
+.services {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.service-cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #eff5ff;
+    padding: 40px;
+    border-radius: 10px;
+    width: 450px;
+}
